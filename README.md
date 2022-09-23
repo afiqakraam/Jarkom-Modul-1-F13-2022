@@ -8,7 +8,7 @@ Afiq Akram | 5025201270
 ## Nomer 1
 Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
 
-Solusi
+### Solusi
 Gunakan filter :
 
 ```
@@ -30,7 +30,7 @@ Jadi webserver yang digunakan adalah **nginx/1.10.3**
 ## Nomer 2
 Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
 
-Solusi
+### Solusi
 pertama kita mencari lokasi dari judul TA dengan menggunakan `frame contains "detailTopik"` 
 
 <img src="img/soal2a.png">
@@ -62,3 +62,33 @@ Akhrinya kita akan menemukan judul TA yang dibuka pada file `194.html`
 
 Maka akan terlihat bahwa topik TA yang dilihat adalah `Evaluasi unjuk kerja User Space Filesystem (FUSE)
 oleh WAHYU SUADI, Rabu 17 Maret 2021 pukul 05:13:50 WIB`
+
+## Nomor 3
+
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
+
+### Solusi
+untuk memfilter semua paket yang menuju port 80 maka menggunakan `display filter tcp.dstport == 80 || udp.dstport == 80`. Penggunaan `dst` dikarenakan paket yang `menuju`, maka digunakan `dst`.
+Maka akan menampilkan paket - paket yang menuju `port 80`
+
+<img src="img/soal3a.png">
+
+## Nomor 4
+
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+
+### Solusi
+untuk memfilter semua paket yang berasal dari port 21 maka menggunakan `display filter tcp.srcport == 21 || udp.srcport == 21`. Penggunaan `src` dikarenakan paket yang `berasal`, maka digunakan `src`.
+Maka akan menampilkan paket - paket yang menuju `port 21`
+
+<img src="img/soal4a.png">
+
+## Nomor 5
+
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+
+### Solusi
+untuk memfilter semua paket yang berasal dari port 443 makan menggunakan `display filter tcp.srcport == 443 || udp.srcport == 443`. 
+Maka akan menampilkan paket - paket yang menuju `port 443`
+
+<img src="img/soal5a.png">
