@@ -56,6 +56,9 @@ Pertama kita `export HTTP`, setelah itu kita dowbload file, kecuali yang bentuk 
 <img src="img/soal2b.png">
 
 Kemudian kita save file tersebut dalam bentuk .html agar lebih mudah dalam pencarian judul TA
-Akhrinya kita akan menemukan judul TA yang dibuka pada file `40.html`
+Akhrinya kita akan menemukan judul TA yang dibuka pada file `194.html`
 
-<img src="">
+<img src="img/k.PNG">
+
+Maka akan terlihat bahwa topik TA yang dilihat adalah `Evaluasi unjuk kerja User Space Filesystem (FUSE)
+oleh WAHYU SUADI, Rabu 17 Maret 2021 pukul 05:13:50 WIB`
