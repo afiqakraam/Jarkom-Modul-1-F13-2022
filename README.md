@@ -6,7 +6,7 @@ Khuria Khusna | 5025201053
 Afiq Akram | 5025201270
 
 ## Nomer 1
-Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
+Sebutkan web server yang digunakan pada `monta.if.its.ac.id`! 
 
 ### Solusi
 Gunakan filter :
@@ -28,7 +28,7 @@ Jadi webserver yang digunakan adalah **nginx/1.10.3**
 
 
 ## Nomer 2
-Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
+Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website `monta.if.its.ac.id` , judul TA apa yang dibuka oleh ishaq ?
 
 ### Solusi
 pertama kita mencari lokasi dari judul TA dengan menggunakan `frame contains "detailTopik"` 
@@ -88,7 +88,7 @@ Maka akan menampilkan paket - paket yang menuju `port 21`
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 
 ### Solusi
-untuk memfilter semua paket yang berasal dari port 443 makan menggunakan `display filter tcp.srcport == 443 || udp.srcport == 443`. 
+untuk memfilter semua paket yang berasal dari port 443 maka menggunakan `display filter tcp.srcport == 443 || udp.srcport == 443`. 
 Maka akan menampilkan paket - paket yang menuju `port 443`
 
-<img src="img/soal5a.png">
+<img src="img/soal5.PNG">
