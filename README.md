@@ -94,18 +94,18 @@ Maka akan menampilkan paket - paket yang menuju `port 443`
 <img src="img/soal5.PNG">
 
 ## Nomor 6
-Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id!
+Filter sehingga wireshark hanya menampilkan paket yang menuju ke `lipi.go.id`!
 
 ### Solusi
-untuk memfilter semua paket yang menuju lipi.go.id kita menggunakan http.host dikarenakan alamat yang dituju berupa sebuah link, maka menggunakan http.host
+untuk memfilter semua paket yang menuju `lipi.go.id` kita menggunakan `http.host` dikarenakan alamat yang dituju berupa sebuah link, maka menggunakan `http.host`
 
 <img src="img/soal6.png">
 
 ## Nomor 7
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
-###Solusi
-untuk menemukan ip, maka dicari dahulu menggunakan cmd IPconfig, maka akan didapat ip address milik kita. kemudian buka wireshark, kemudian ketik ip.src pada display filter  dengan alamat yang dituju merupakan alamat ip yang sudah didapat.
+### Solusi
+untuk menemukan ip, maka dicari dahulu menggunakan `cmd IPconfig`, maka akan didapat ip address milik kita. kemudian buka wireshark, kemudian ketik `ip.src` pada display filter dengan alamat yang dituju merupakan alamat ip yang sudah didapat.
 
 <img src="img/soal7.png">
 
