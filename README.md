@@ -107,7 +107,7 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 ###Solusi
 untuk menemukan ip, maka dicari dahulu menggunakan cmd IPconfig, maka akan didapat ip address milik kita. kemudian buka wireshark, kemudian ketik ip.src pada display filter  dengan alamat yang dituju merupakan alamat ip yang sudah didapat.
 
-<img src="img/soal7.png>
+<img src="img/soal7.png">
 
 ## Nomor 8
 
